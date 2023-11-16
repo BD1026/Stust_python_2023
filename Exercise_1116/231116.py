@@ -1,4 +1,4 @@
-class number:
+class Area:
     def __init__(self,side,length,width,radius):
         self.side = side
         self.length = length
@@ -6,17 +6,17 @@ class number:
         self.radius = radius
 
     def getSquareArea(self):
-        sied =input("邊長:")
-        SquareArea = sied*sied
-        print(SquareArea)
+        print('正方形面積:',self.side**2)
+        
 
     def getRectangleArea(self):
+        print('長方形面積:',self.length*self.width)
         
-        length=input('長:'+length)
-        width=input('/n寬:'+width)
-        area = length*width
-
     def getCircleArea(self):
-        
-        area = length*width
+        print('圓的面積:',self.radius*self.radius*3.14)
 
+p1=Area(3,4,5,6)
+
+p1.getSquareArea()
+p1.getRectangleArea()
+p1.getCircleArea()
