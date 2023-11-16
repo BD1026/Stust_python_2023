@@ -1,4 +1,4 @@
-class Square:
+class number:
     def __init__(self,side,length,width,radius):
         self.side = side
         self.length = length
@@ -7,7 +7,8 @@ class Square:
 
     def getSquareArea(self):
         sied =input("邊長:")
-        getSquare = sied
+        SquareArea = sied*sied
+        print(SquareArea)
 
     def getRectangleArea(self):
         
@@ -17,4 +18,5 @@ class Square:
 
     def getCircleArea(self):
         
+        area = length*width
 
